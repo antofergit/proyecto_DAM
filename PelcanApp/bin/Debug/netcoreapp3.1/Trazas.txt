@@ -1,0 +1,29 @@
+Fecha: 19/11/2022 1:07:11
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 168
+Mensaje de error: A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No hay ningún proceso en el otro extremo de la canalización.)
+
+Fecha: 19/11/2022 1:08:46
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 168
+Mensaje de error: The ConnectionString property has not been initialized.
+
+Fecha: 19/11/2022 1:10:08
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 168
+Mensaje de error: The ConnectionString property has not been initialized.
+
+Fecha: 19/11/2022 21:12:42
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 137
+Mensaje de error: No se puede abrir la base de datos 'Pelcan0' solicitada por el inicio de sesión. Error de inicio de sesión.
+Error de inicio de sesión del usuario 'antofer'.
+
+Fecha: 19/11/2022 21:12:48
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 137
+Mensaje de error: The ConnectionString property has not been initialized.
+
+Fecha: 19/11/2022 21:14:04
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 137
+Mensaje de error: The ConnectionString property has not been initialized.
+
+Fecha: 19/11/2022 21:58:54
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 141
+Mensaje de error: A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No hay ningún proceso en el otro extremo de la canalización.)
+

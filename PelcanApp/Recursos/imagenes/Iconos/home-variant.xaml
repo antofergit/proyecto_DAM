@@ -1,0 +1,3 @@
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Width="24" Height="24">
+    <Path Fill="White" Data="M12,3L20,9V21H15V14H9V21H4V9L12,3Z" Height="24" Stretch="Fill" Width="24" />
+</Canvas>

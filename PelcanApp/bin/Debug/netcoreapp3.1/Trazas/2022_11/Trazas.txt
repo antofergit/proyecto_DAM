@@ -1,0 +1,20 @@
+Fecha: 19/11/2022 22:30:40
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 141
+Mensaje de error: A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No hay ningún proceso en el otro extremo de la canalización.)
+
+Fecha: 19/11/2022 22:32:41
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 141
+Mensaje de error: A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No hay ningún proceso en el otro extremo de la canalización.)
+
+Fecha: 19/11/2022 22:32:43
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 141
+Mensaje de error: A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No hay ningún proceso en el otro extremo de la canalización.)
+
+Fecha: 19/11/2022 22:32:45
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 141
+Mensaje de error: A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No hay ningún proceso en el otro extremo de la canalización.)
+
+Fecha: 19/11/2022 22:40:22
+Error en método:    at API.Data.DataClientes.EliminarCliente(Int32 id) in C:\Users\antof\source\repos\PelcanApp\API\Data\dataClientes.cs:line 141
+Mensaje de error: A connection was successfully established with the server, but then an error occurred during the login process. (provider: Shared Memory Provider, error: 0 - No hay ningún proceso en el otro extremo de la canalización.)
+

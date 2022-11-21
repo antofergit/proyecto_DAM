@@ -1,0 +1,113 @@
+﻿<Window x:Class="PelcanApp.Windows.wNuevoCliente"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PelcanApp.Windows"
+        mc:Ignorable="d"
+        Title="Nuevo Cliente" Height="600" Width="500" WindowStyle="SingleBorderWindow" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid Name="gridPrincipal" Margin="20,10,20,20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Margin="5">
+                        <Label>DNI</Label>
+                        <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Margin="5">
+                        <Label>Telefono</Label>
+                        <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                    </StackPanel>
+                </Grid>
+
+                <StackPanel Grid.Row="1" Margin="5">
+                    <Label>Nombre</Label>
+                    <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                </StackPanel>
+
+                <StackPanel Grid.Row="2" Margin="5">
+                    <Label>Apellidos</Label>
+                    <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                </StackPanel>
+
+                <StackPanel Grid.Row="3" Margin="5">
+                    <Label>Direccion</Label>
+                    <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                </StackPanel>
+
+                <StackPanel Grid.Row="4" Margin="5">
+                    <Label>Poblacion</Label>
+                    <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                </StackPanel>
+
+                <Grid Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Grid.Column="0" Margin="5">
+                        <Label>Codigo Postal</Label>
+                        <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Margin="5">
+                        <Label>Provincia</Label>
+                        <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                    </StackPanel>
+                </Grid>
+
+                <StackPanel Grid.Row="6" Margin="5">
+                    <Label>Email</Label>
+                    <TextBox Margin="5,0,5,5" Padding="5"></TextBox>
+                </StackPanel>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1" Background="{StaticResource Color.Oscuro}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Style="{DynamicResource StyleBtnCancelar}" Grid.Column="2" Margin="10">
+                <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Width="24" Height="24" Source="{StaticResource IconoCancelar.Blanco}"/>
+                    <Label Content="Cancelar" Foreground="WhiteSmoke"/>
+                </WrapPanel>
+            </Button>
+
+            <Button Style="{DynamicResource StyleBtnAceptar}" Grid.Column="1" Margin="10">
+                <WrapPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Width="24" Height="24" Source="{StaticResource IconoOk.Blanco}"/>
+                    <Label Content="Aceptar" Foreground="WhiteSmoke"/>
+                </WrapPanel>
+            </Button>
+            
+            
+        </Grid>
+
+
+    </Grid>
+
+
+</Window>
